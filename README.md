@@ -3,7 +3,7 @@
 
 O **SustentaWeb** é um site desenvolvido como projeto de extensão acadêmica, com o objetivo de promover **educação ambiental** e incentivar práticas sustentáveis na comunidade, contribuindo diretamente para o **Objetivo de Desenvolvimento Sustentável 11**: *Tornar as cidades e comunidades inclusivas, seguras, resilientes e sustentáveis.*
 
-Este projeto foi desenvolvido utilizando **HTML, CSS e JavaScript**, com páginas simples, acessíveis e responsivas.
+Este projeto foi desenvolvido utilizando **HTML, CSS e JavaScript**.
 
 ---
 
