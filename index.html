@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SustentaWeb — Educação Ambiental</title>
+  <meta name="description" content="SustentaWeb: informações e quiz sobre reciclagem para sua comunidade." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">SustentaWeb</h1>
+      <nav aria-label="Navegação principal">
+        <ul class="nav">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#what-to-recycle">O que reciclar</a></li>
+          <li><a href="#quiz">Quiz</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <h2>Torne seu bairro mais sustentável</h2>
+        <p>Informações práticas sobre reciclagem, descarte correto e pequenas ações que fazem diferença.</p>
+        <a class="cta" href="#what-to-recycle">Aprender agora</a>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>O que é o SustentaWeb?</h3>
+      <p>
+        O SustentaWeb é uma plataforma educativa criada para informar moradores sobre
+        descarte correto de resíduos, coleta seletiva e práticas sustentáveis. Conteúdo simples, linguagem acessível e ferramentas para engajar escolas e famílias.
+      </p>
+      <div class="cards">
+        <article class="card">
+          <h4>Objetivo</h4>
+          <p>Promover educação ambiental e reduzir pontos de descarte irregular no bairro.</p>
+        </article>
+        <article class="card">
+          <h4>Público</h4>
+          <p>Famílias, estudantes, professores e pequenos comerciantes.</p>
+        </article>
+        <article class="card">
+          <h4>Parcerias</h4>
+          <p>ONGs locais, escolas e secretarias municipais de meio ambiente.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="what-to-recycle" class="container recycle">
+      <h3>O que reciclar?</h3>
+      <p>Lista prática de materiais e exemplos comuns. Use como referência diária.</p>
+
+      <div class="grid">
+        <figure class="card media">
+          <img src="https://via.placeholder.com/400x240?text=Plástico" alt="Exemplo de plástico: garrafas PET" />
+          <figcaption><strong>Plástico</strong><br/>Garrafas PET, embalagens plásticas limpas.</figcaption>
+        </figure>
+
+        <figure class="card media">
+          <img src="https://via.placeholder.com/400x240?text=Papel+e+Cartão" alt="Papel e papelão" />
+          <figcaption><strong>Papel / Papelão</strong><br/>Caixas, jornais, folhas limpas.</figcaption>
+        </figure>
+
+        <figure class="card media">
+          <img src="https://via.placeholder.com/400x240?text=Vidro" alt="Vidro: garrafas e potes" />
+          <figcaption><strong>Vidro</strong><br/>Garrafas e potes (sem tampas metálicas).</figcaption>
+        </figure>
+
+        <figure class="card media">
+          <img src="https://via.placeholder.com/400x240?text=Metal" alt="Latas e metais" />
+          <figcaption><strong>Metal</strong><br/>Latas de alimentos e bebidas, latas limpas.</figcaption>
+        </figure>
+      </div>
+
+      <div class="tip">
+        <h4>Dica rápida</h4>
+        <p>Lave rapidamente embalagens que contenham resíduo orgânico. Remova tampas quando indicado e separe por tipo.</p>
+      </div>
+    </section>
+
+    <section id="quiz" class="container quiz-section" aria-labelledby="quiz-title">
+      <h3 id="quiz-title">Quiz: Você sabe reciclar?</h3>
+      <p>Responda 5 perguntas rápidas. Seus resultados são guardados localmente.</p>
+
+      <form id="quizForm" class="quiz-form" autocomplete="off" aria-describedby="quizHelp">
+        <div class="question">
+          <label>1. A embalagem de iogurte vazia e sem adesivo vai para:</label>
+          <select name="q1" required>
+            <option value="">Escolha...</option>
+            <option value="reciclavel">Reciclável</option>
+            <option value="orgânico">Orgânico</option>
+            <option value="nao">Não reciclável</option>
+          </select>
+        </div>
+
+        <div class="question">
+          <label>2. Pilhas e baterias devem ser descartadas:</label>
+          <select name="q2" required>
+            <option value="">Escolha...</option>
+            <option value="ponto">Em pontos de coleta específicos</option>
+            <option value="lixo">No lixo comum</option>
+            <option value="reciclavel">No reciclável</option>
+          </select>
+        </div>
+
+        <div class="question">
+          <label>3. Vidro quebrado vai para:</label>
+          <select name="q3" required>
+            <option value="">Escolha...</option>
+            <option value="reciclavel">Reciclável (embalado)</option>
+            <option value="lixo">Lixo comum</option>
+            <option value="ponto">Ponto de coleta especial</option>
+          </select>
+        </div>
+
+        <div class="question">
+          <label>4. Embalagem suja de gordura (p.ex. caixa de pizza) vai para:</label>
+          <select name="q4" required>
+            <option value="">Escolha...</option>
+            <option value="orgânico">Orgânico</option>
+            <option value="lixo">Lixo comum</option>
+            <option value="reciclavel">Reciclável</option>
+          </select>
+        </div>
+
+        <div class="question">
+          <label>5. Tampas plásticas pequenas devem ser:</label>
+          <select name="q5" required>
+            <option value="">Escolha...</option>
+            <option value="reciclavel">Separadas e recicláveis</option>
+            <option value="lixo">Juntas ao lixo</option>
+            <option value="metal">Separar como metal</option>
+          </select>
+        </div>
+
+        <div id="quizHelp" class="sr-only">Responda todas as perguntas e envie para ver seu resultado.</div>
+        <div class="quiz-actions">
+          <button type="submit" class="btn">Enviar respostas</button>
+          <button type="button" id="exportStats" class="btn secondary">Exportar estatísticas (CSV)</button>
+        </div>
+      </form>
+
+      <div id="quizResult" class="result" aria-live="polite" hidden></div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contato / Dúvidas</h3>
+      <p>Envie dúvidas ou sugestões para a ONG parceira. Use o formulário abaixo ou clique no e-mail.</p>
+
+      <form id="contactForm" class="contact-form">
+        <label for="name">Nome</label>
+        <input id="name" name="name" type="text" placeholder="Seu nome" required />
+
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="seu@exemplo.com" required />
+
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" rows="4" placeholder="Sua mensagem"></textarea>
+
+        <div class="contact-actions">
+          <!-- usa mailto apenas como fallback / demonstração -->
+          <button type="submit" class="btn">Enviar (abrirá seu e-mail)</button>
+          <a class="btn link" href="mailto:contato@sustentaweb.org.br?subject=Contato%20SustentaWeb" title="Enviar e-mail direto">Enviar por e-mail</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© SustentaWeb — Projeto de Extensão • Dados armazenados localmente no seu navegador.</p>
+      <p><small>Feito por: [Seu nome] — Curso: Informática para Internet</small></p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
