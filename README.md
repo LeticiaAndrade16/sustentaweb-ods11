@@ -31,7 +31,3 @@ Este site contribui para:
 - ODS 11.7 – Acesso universal a espaços educativos e inclusivos
 - Educação ambiental acessível para todos
 
-
-
-## 📂 Estrutura do Projeto
-
